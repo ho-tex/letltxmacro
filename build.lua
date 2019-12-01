@@ -3,6 +3,13 @@
 
 module = "letltxmacro"
 
+installfiles = {
+'*.sty',
+'letltxmacro-showcases.tex',
+'*.dtx','*.pdf'
+}
+
+
 textfiles = {"README.md"}
 unpackfiles = {'letltxmacro.dtx'}
 
@@ -11,6 +18,12 @@ packtdszip  = true
 maxprintline=10000
 checkruns = 2
 
+tdslocations={
+"doc/latex/oberdiek/letltxmacro-showcases.tex",
+"doc/latex/oberdiek/letltxmacro.pdf",
+"source/latex/oberdiek/letltxmacro.dtx",
+"tex/latex/oberdiek/letltxmacro.sty"
+}
 
 function update_tag(file,content,tagname,tagdate)
 
