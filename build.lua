@@ -19,10 +19,10 @@ maxprintline=10000
 checkruns = 2
 
 tdslocations={
-"doc/latex/oberdiek/letltxmacro-showcases.tex",
-"doc/latex/oberdiek/letltxmacro.pdf",
-"source/latex/oberdiek/letltxmacro.dtx",
-"tex/latex/oberdiek/letltxmacro.sty"
+"doc/latex/letltxmacro/letltxmacro-showcases.tex",
+"doc/latex/letltxmacro/letltxmacro.pdf",
+"source/latex/letltxmacro/letltxmacro.dtx",
+"tex/latex/letltxmacro/letltxmacro.sty"
 }
 
 function update_tag(file,content,tagname,tagdate)
